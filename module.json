@@ -1,0 +1,34 @@
+{
+  "id": "foundryvtt-to-nodecg",
+  "title": "Foundry VTT to NodeCG Bridge",
+  "description": "Un pont entre Foundry VTT et NodeCG pour afficher les données de jeu sur un stream",
+  "library": "false",
+  "manifestPlusVersion": "1.2.0",
+  "authors": [
+    {
+      "name": "Peremptoire"
+    }
+  ],
+  "version": "1.0.2",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [],
+    "requires": []
+  },
+  "esmodules": [
+    "scripts/main.js",
+    "scripts/utils.js"
+  ],
+  "socket": true,
+  "styles": [
+    "styles/module.css"
+  ],
+  "url": "https://github.com/peremptoire/foundryvtt-to-nodecg",
+  "manifest": "https://github.com/peremptoire/foundryvtt-to-nodecg/releases/latest/download/module.json",
+  "download": "https://github.com/peremptoire/foundryvtt-to-nodecg/releases/latest/download/module.zip",
+  "license": "LICENSE",
+  "readme": "README.md"
+}

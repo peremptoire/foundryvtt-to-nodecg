@@ -1,0 +1,1 @@
+Temporary test repository for NodeCG to Foundry VTT integration.
