@@ -2,6 +2,9 @@
 // Character Stats Bridge
 // =============================
 
+Hooks.on("ready", () => {
+    sendAllCharacterData();
+});
 
 Hooks.on("updateActor", async function (actor) {
     if (actor.type === "player") {
@@ -12,7 +15,6 @@ Hooks.on("updateActor", async function (actor) {
 
 function buildCharacterData(actor) {
     return {
-        actor: actor,
         actorId: actor.id,
         userId: game.user.id,
         timestamp: new Date().toISOString(),

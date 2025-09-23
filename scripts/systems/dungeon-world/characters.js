@@ -2,6 +2,9 @@
 // Character Stats Bridge
 // =============================
 
+Hooks.on("ready", () => {
+    sendAllCharacterData();
+});
 
 Hooks.on("updateActor", async function (actor) {
     if (actor.type === "character") {
