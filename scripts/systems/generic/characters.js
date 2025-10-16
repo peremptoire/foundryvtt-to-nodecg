@@ -33,5 +33,4 @@ async function sendCharacterData(characterData) {
         type: "characterUpdate",
         data: characterData
     });
-    console.log("Character data sent to external system:", characterData);
 }

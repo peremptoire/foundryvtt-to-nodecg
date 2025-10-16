@@ -102,7 +102,6 @@ async function sendItemData(itemData) {
         type: "itemEvent",
         data: itemData
     });
-    console.log("Item data sent to external system:", itemData);
 }
 
 async function sendActionData(actionData) {
@@ -110,5 +109,4 @@ async function sendActionData(actionData) {
         type: "actionEvent",
         data: actionData
     });
-    console.log("Action data sent to external system:", actionData);
 }

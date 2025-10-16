@@ -84,6 +84,5 @@ async function sendItemData(itemData) {
         type: "itemEvent",
         data: itemData
     });
-    console.log("Item data sent to external system:", itemData);
 }
 

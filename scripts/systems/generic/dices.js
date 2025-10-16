@@ -21,7 +21,6 @@ Hooks.on("preCreateChatMessage", async function (msg) {
     if (rollData && rollData.rolls.length > 0) {
         await sendDiceRollData(rollData);
         if (game.user.isGM) {
-            console.log("Extracted unified roll data:", rollData);
         }
     }
 });

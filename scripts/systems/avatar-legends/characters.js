@@ -37,12 +37,11 @@ async function sendCharacterData(characterData) {
         type: "characterUpdate",
         data: characterData
     });
-    console.log("Character data sent to external system:", characterData);
 }
 
 setInterval(
     sendAllCharacterData,
-    300000
+    60000
 );
 
 sendAllCharacterData();

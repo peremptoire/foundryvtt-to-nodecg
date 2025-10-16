@@ -6,7 +6,6 @@ Hooks.on("preCreateChatMessage", async function (msg) {
     const rollData = await extractUnifiedRollData(msg);
     if (rollData) {
         await sendDiceRollData(rollData);
-        console.log("Extracted unified roll data:", rollData);
     }
 });
 
